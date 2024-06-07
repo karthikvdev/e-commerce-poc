@@ -1,0 +1,24 @@
+.search-component {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+
+    select {
+        background-color: #e6e6e6;
+        padding: 10px;
+        border-right: 0;
+        font-size: 15px;
+        text-transform: capitalize;
+        ::selection {
+            border: 0;
+        }
+    }
+
+    input {
+        font-size: 15px;
+        color: #000;
+        width: 50%;
+        padding: 0 10px;
+    }
+}

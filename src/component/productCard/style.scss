@@ -1,0 +1,27 @@
+.product {
+    border: 1px solid;
+    max-width: 450px;
+
+    &-image {
+        height: 300px;
+        aspect-ratio: 1/1;
+        padding: 15px 0;
+    }
+
+    &-details-container {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    &-title {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .add-to-cart-btn {
+        height: 30px;
+    }
+}
